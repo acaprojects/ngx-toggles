@@ -1,0 +1,5 @@
+<div [class]="'toggle basic' + (klass ? ' ' + klass : '')" widget>
+    <div class="block" tabindex="0" (tapped)="toggle()" [class.active]="model" (keyup.enter)="toggle()">
+        <div class="knob"></div>
+    </div>
+</div>
