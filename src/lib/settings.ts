@@ -11,10 +11,10 @@ declare global {
     }
 }
 
-const LIB_NAME = 'CHECKBOX';
+const LIB_NAME = 'TOGGLE';
 
 export class LIBRARY_SETTINGS {
-    public static readonly type = 'Checkbox';
+    public static readonly type = 'Toggles';
 
     public static log(type: string, msg: string, args?: any, out: string = 'debug', color?: string) {
         if (window.debug) {

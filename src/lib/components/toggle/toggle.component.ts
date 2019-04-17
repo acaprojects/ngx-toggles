@@ -15,7 +15,7 @@ type FIELD_TYPE = boolean;
     ]
 })
 export class ToggleComponent implements ControlValueAccessor {
-    /** ID of the checkbox element */
+    /** ID of the toggle element */
     @Input() public id: string;
     /** CSS class to add to the root element of the component */
     @Input() public klass = 'default';
