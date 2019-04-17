@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { AToggleModule } from '../../lib/src/public_api';
+import { AToggleModule } from '../lib/public_api';
 
 @NgModule({
     declarations: [AppComponent],
